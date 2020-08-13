@@ -39,11 +39,8 @@ export default class Login extends Component {
         }
         const { email, password } = this.state
         return (
-            <div className="h-100">
+            <div>
                 <form onSubmit={this.submithandler}>
-                    <nav className="NavTop">
-                        <img src="https://delivery.samydigital.com/Logo/Logo+AI+Black.png" width="200px" />
-                    </nav>
                     <div className="d-flex justify-content-center align-items-center bg-img">
                         <div className="card p-4">
                             <h3>Transforming Business through

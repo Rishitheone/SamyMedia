@@ -1,17 +1,39 @@
+@font-face {
+  font-family: "San-Serif-roman";
+  src: url("./Assets/fonts/Samy+Media+San+Serif/Samy\ Media\ San\ Serif\ Roman.ttf") format("truetype");
+}
+@font-face {
+  font-family: "San-Serif-black";
+  src: url("./Assets/fonts/Samy+Media+San+Serif/Samy\ Media\ San\ Serif\ Black.ttf") format("truetype");
+}
+@font-face {
+  font-family: "San-Serif-bold";
+  src: url("./Assets/fonts/Samy+Media+San+Serif/Samy\ Media\ San\ Serif\ Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "San-Serif-light";
+  src: url("./Assets/fonts/Samy+Media+San+Serif/Samy\ Media\ San\ Serif\ Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "San";
+  src: url("./Assets/fonts/Samy+Media+Serif+Fonts/Samy\ Media\ Serif\ Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "San-bold";
+  src: url("./Assets/fonts/Samy+Media+Serif+Fonts/Goudy\ Old\ Style\ Bold.ttf") format("truetype");
+}
+*{
+  font-family:'San-Serif-light' ;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
-    "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
-}
 .NavTop {
-  padding: 25px 0px;
-  height: 10vh;
+  padding: 35px 0px;
+  height: 15vh;
   text-align: center;
   box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12);
 }
@@ -23,7 +45,7 @@ body,
   height: 100%;
 }
 .bg-img {
-  height: 90vh;
+  height: 85vh;
   background-image: url("https://delivery.samydigital.com/Stock+Image/Stock+Photography/Samy+Media+Login.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -63,5 +85,35 @@ p {
   width: 400px;
   border: none;
   border-radius: 0px;
+}
+
+a.active {
+  border-radius: 25px;
+  background-color: #000;
+  z-index: 1200;
+  color: #fff !important;
+  bottom: 0;
+  transition: all 0.4s linear;
+}
+.example-spacer {
+  flex: 1 1 auto;
+}
+a:hover {
+  text-decoration: none;
+}
+.navtabs > a {
+  text-decoration: none;
+  font-size: 16px;
+  margin: 0px auto;
+  padding: 5px 15px;
+  color: #727272;
+  font-weight: lighter;
+  font-family: "San-Serif-light";
+}
+.col-md-6.p-3.navtabs {
+  display: inline-flex;
+}
+.card-sh {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
