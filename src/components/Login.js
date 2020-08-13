@@ -43,10 +43,10 @@ export default class Login extends Component {
                 <form onSubmit={this.submithandler}>
                     <div className="d-flex justify-content-center align-items-center bg-img">
                         <div className="card p-4">
-                            <h3>Transforming Business through
+                            <h3 className="log-top">Transforming Business through
                             Innovative Storytelling.
                   </h3>
-                            <p>We help brand grow and thrive through laser-focused bespoke solution.Innovation,
+                            <p className="log-cont">We help brand grow and thrive through laser-focused bespoke solution.Innovation,
                             transparency,and quality are the cornerstones of our professional approach
                   </p>
                             <div className="slide-left">

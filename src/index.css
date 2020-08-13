@@ -51,13 +51,15 @@ body,
   background-size: cover;
   background-position: center;
 }
-h3 {
-  font-size: 21px;
+.log-top {
+  /* font-size: 21px; */
   line-height: 1.5;
   margin-bottom: 1rem;
+  font-family:'San' ;
 }
-p {
-  font-size: 15px;
+.log-cont{
+  font-size: 13px;
+  font-family:'San' ;
 }
 .form-control {
   border-radius: 0px;
