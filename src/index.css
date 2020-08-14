@@ -20,7 +20,7 @@
 }
 @font-face {
   font-family: "San-bold";
-  src: url("./Assets/fonts/Samy+Media+Serif+Fonts/Goudy\ Old\ Style\ Bold.ttf") format("truetype");
+  src: url("./Assets/fonts/Samy+Media+Serif+Fonts/Samy\ Media\ Serif\ Regular.ttf") format("truetype");
 }
 *{
   font-family:'San-Serif-light' ;
@@ -95,7 +95,7 @@ a.active {
   z-index: 1200;
   color: #fff !important;
   bottom: 0;
-  transition: all 0.4s linear;
+  /* transition: all 0.4s linear; */
 }
 .example-spacer {
   flex: 1 1 auto;
@@ -112,7 +112,7 @@ a:hover {
   font-weight: lighter;
   font-family: "San-Serif-light";
 }
-.col-md-6.p-3.navtabs {
+.col-md-6.pt-3.navtabs {
   display: inline-flex;
 }
 .card-sh {

@@ -35,7 +35,7 @@ export default class Login extends Component {
 
     render() {
         if(this.state.isLogged){
-            return <Redirect to="/Admin" />
+            return <Redirect to="/Admin/Showcase" />
         }
         const { email, password } = this.state
         return (

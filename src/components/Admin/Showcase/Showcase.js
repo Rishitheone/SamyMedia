@@ -11,15 +11,15 @@ class Showcase extends Component {
                 Track your Project Status, Billing, Payment Dues and Confidential Documents regarding the Project
                 In One Place.
                 </p>
-                <div class="form-group has-search">
-                    <span class="fa fa-search form-control-feedback"></span>
-                    <input type="text" class="form-control" placeholder="Search" />
+                <div className="form-group has-search">
+                    <span className="fa fa-search form-control-feedback"></span>
+                    <input type="text" className="form-control" placeholder="Search" />
                 </div>
-                <div className="card-sh row">
+                <div className="card-sh row p-0 m-0">
                   <div className="col-3 p-0">
                       <img className="img-fluids p-2" src="https://images.unsplash.com/photo-1579298245158-33e8f568f7d3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=767&q=80" alt=""></img>
                   </div>
-                  <div className="col-7 d-flex pl-4">
+                  <div className="col-7 d-flex pl-3">
                       <div className="pt-4 pr-3">
                       <p className="title">Title</p>
                       <p className="Sub-title  text-mute">Transforming Business with Storytelling</p>
