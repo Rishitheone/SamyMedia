@@ -1,0 +1,52 @@
+.has-search .form-control {
+    padding-left: 2.375rem;
+    border-radius: 0px;
+    border: none;
+    border-bottom: 1px solid gray !important;
+}
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color:none;
+    outline: none;
+    box-shadow:none;
+}
+.top-text {
+    font-family: "San";
+    font-size: 16px;
+    font-weight: 400;
+    text-align: justify;
+  }
+p.title {
+    font-family: "Sans-bold";
+    font-size: 15px;
+}
+.text-mute {
+    color: #727272;
+    font-size: 14px;
+}
+.img-fluids {
+    max-width: 100%;
+    min-height: 122px;
+}
+.bg-edit{
+    background: #f0f0f0;
+    cursor: pointer;
+}
+.bg-delete{
+    background: #e8e8e8;
+    cursor: pointer;
+}
+ 
+  
